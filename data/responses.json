@@ -1,0 +1,51 @@
+{
+  "responses": {
+    "greet": [
+      "Hello! Welcome to The Grand Table. I can help you make a reservation, check availability, or answer questions about our menu. How can I help?",
+      "Hi there! How can I assist you today? I can book a table, check availability, or help with your existing reservation.",
+      "Good day! I'm here to help with table bookings and questions about our restaurant. What can I do for you?"
+    ],
+    "goodbye": [
+      "Thank you for visiting The Grand Table. We look forward to seeing you soon!",
+      "Goodbye! If you need anything else, don't hesitate to ask. Have a wonderful day!",
+      "Thank you! Your booking is all set. See you soon!"
+    ],
+    "book_table": {
+      "confirm": "Perfect! I've reserved a table for {party_size} on {date} at {time}. Your booking reference is #{ref}. We'll see you then!",
+      "need_date": "I'd love to help you book a table! What date were you thinking?",
+      "need_time": "Great! What time would you like the table for on {date}?",
+      "need_party_size": "How many people will be dining?"
+    },
+    "cancel_booking": {
+      "confirm": "I've cancelled your reservation for {date} at {time}. We're sorry to see you go — hope to see you another time!",
+      "need_ref": "I can cancel that for you. Could you share your booking reference number or the name it was booked under?",
+      "not_found": "I couldn't find a booking under that name. Could you double-check the details?"
+    },
+    "check_availability": {
+      "available": "Great news — we have availability on {date} at {time} for up to {max_party} guests. Would you like to make a reservation?",
+      "unavailable": "Unfortunately we're fully booked on {date} at {time}. We do have availability at {alt_time} — would that work?",
+      "need_date": "When were you hoping to visit?"
+    },
+    "modify_booking": {
+      "confirm": "I've updated your booking to {party_size} guests on {date} at {time}. All confirmed!",
+      "need_ref": "I can update your booking. What's your booking reference or the name it's under?",
+      "not_found": "I couldn't locate that booking. Could you check the details?"
+    },
+    "ask_menu": [
+      "We offer a wide range of dishes including vegetarian, vegan, and gluten-free options. Our menu changes seasonally — you can view the full menu at our website or ask your server when you arrive.",
+      "Our menu features modern European cuisine with plenty of plant-based options. We can accommodate most dietary requirements with advance notice — just mention it when booking!"
+    ],
+    "ask_hours": [
+      "We're open Monday to Saturday from 12pm to 10pm, and Sunday from 12pm to 8pm. The kitchen stops taking orders 30 minutes before closing.",
+      "Our opening hours are: Lunch 12pm–3pm, Dinner 6pm–10pm (Mon–Sat). We're open Sunday 12pm–8pm."
+    ],
+    "ask_location": [
+      "We're located at 42 High Street, City Centre, EC1A 1BB. We're a 5-minute walk from the Central Station and there's a public car park two streets away.",
+      "You'll find us at 42 High Street — right in the city centre, near the main square. There's plenty of public transport nearby."
+    ],
+    "out_of_scope": [
+      "I'm sorry, I can only help with restaurant reservations and information about The Grand Table. Is there anything I can assist you with regarding your visit?",
+      "That's a bit outside my expertise! I'm best at helping with bookings, menu questions, and restaurant information. Can I help with any of those?"
+    ]
+  }
+}

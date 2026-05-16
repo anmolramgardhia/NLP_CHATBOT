@@ -1,0 +1,15 @@
+{
+  "entity_patterns": [
+    {"label": "DIETARY", "pattern": "vegetarian"},
+    {"label": "DIETARY", "pattern": "vegan"},
+    {"label": "DIETARY", "pattern": "plant-based"},
+    {"label": "DIETARY", "pattern": "gluten-free"},
+    {"label": "DIETARY", "pattern": "gluten free"},
+    {"label": "DIETARY", "pattern": "dairy-free"},
+    {"label": "DIETARY", "pattern": "dairy free"},
+    {"label": "DIETARY", "pattern": "nut-free"},
+    {"label": "DIETARY", "pattern": "halal"},
+    {"label": "DIETARY", "pattern": "kosher"},
+    {"label": "DIETARY", "pattern": "pescatarian"}
+  ]
+}

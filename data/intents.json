@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "book_table",
+      "examples": [
+        "Book a table for 2 at 7pm",
+        "Reserve a spot for tonight",
+        "I'd like to make a reservation",
+        "Can I book a table for four people on Friday?",
+        "Reserve a table for two tomorrow evening",
+        "I want to book a table for my anniversary",
+        "Can we get a reservation for Saturday night?",
+        "Table for 3 please",
+        "I'd like to reserve a table for dinner",
+        "Book me a spot for tonight at eight",
+        "I need a table for this weekend",
+        "Can you reserve a table for us?",
+        "I would like to book for two people",
+        "Make a reservation for tomorrow",
+        "I want to reserve a table for 6"
+      ]
+    },
+    {
+      "tag": "cancel_booking",
+      "examples": [
+        "Cancel my reservation",
+        "I need to cancel my booking",
+        "Please cancel my table",
+        "I'd like to cancel my reservation for tonight",
+        "Can you cancel my booking?",
+        "Cancel the reservation under John Smith",
+        "I want to cancel",
+        "Please remove my booking",
+        "Cancel everything",
+        "I need to cancel my table for Saturday",
+        "Delete my reservation please",
+        "I have to cancel unfortunately",
+        "Can you remove my reservation?",
+        "Cancel booking for tomorrow",
+        "I won't be able to make it, please cancel"
+      ]
+    },
+    {
+      "tag": "check_availability",
+      "examples": [
+        "Do you have space on Friday evening?",
+        "Are you available tomorrow night?",
+        "Is there availability for 4 people on Saturday?",
+        "Do you have any tables available?",
+        "Are there any open slots for tonight?",
+        "What times do you have available?",
+        "Can you accommodate 6 people on Sunday?",
+        "Is there space for two this weekend?",
+        "Do you have availability for dinner?",
+        "Any tables free for lunch today?",
+        "Are you fully booked on Friday?",
+        "Do you have anything available next week?",
+        "Is Saturday evening available?",
+        "Can you fit us in tonight?",
+        "Any availability this weekend?"
+      ]
+    },
+    {
+      "tag": "modify_booking",
+      "examples": [
+        "Change my booking to 4 people",
+        "I need to modify my reservation",
+        "Can I change the time to 8pm?",
+        "Update my booking to tomorrow instead",
+        "I need to add one more person",
+        "Can we change it to a different day?",
+        "Modify my reservation please",
+        "I want to change my table booking",
+        "Can I switch to an earlier time?",
+        "Update the number of guests to 5",
+        "I need to reschedule my reservation",
+        "Change the date of my booking",
+        "Can I move my reservation to next week?",
+        "I want to change from 7pm to 8pm",
+        "Update my booking please"
+      ]
+    },
+    {
+      "tag": "ask_menu",
+      "examples": [
+        "What vegetarian options do you have?",
+        "Do you have a vegan menu?",
+        "What's on the menu?",
+        "Do you cater for gluten-free diets?",
+        "What food do you serve?",
+        "Are there any meat-free options?",
+        "What are your specials today?",
+        "Do you have dairy-free dishes?",
+        "What cuisine do you serve?",
+        "Can you accommodate allergies?",
+        "Is there a kids menu?",
+        "What do you recommend?",
+        "Do you have a set menu?",
+        "Any seafood options?",
+        "What are your most popular dishes?"
+      ]
+    },
+    {
+      "tag": "ask_hours",
+      "examples": [
+        "What time do you close?",
+        "When do you open?",
+        "What are your opening hours?",
+        "Are you open on Sundays?",
+        "What time does the kitchen close?",
+        "Do you serve lunch?",
+        "Are you open on public holidays?",
+        "What are your hours on weekdays?",
+        "When do you stop taking reservations?",
+        "Are you open for breakfast?",
+        "What time do you open on Saturday?",
+        "Are you closed on Mondays?",
+        "Do you do brunch?",
+        "Are you open late?",
+        "What are your weekend hours?"
+      ]
+    },
+    {
+      "tag": "ask_location",
+      "examples": [
+        "Where are you located?",
+        "What's your address?",
+        "How do I get there?",
+        "Where is the restaurant?",
+        "Can you give me directions?",
+        "Is there parking nearby?",
+        "Are you near the city centre?",
+        "What's the postcode?",
+        "How far are you from the station?",
+        "Where can I find you?",
+        "Are you accessible by public transport?",
+        "Is there disabled parking?",
+        "What's the nearest tube station?",
+        "Are you close to the high street?",
+        "How far is it from the train station?"
+      ]
+    },
+    {
+      "tag": "greet",
+      "examples": [
+        "Hello",
+        "Hi there",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Hi",
+        "Hello there",
+        "Hey there",
+        "Greetings",
+        "Good afternoon",
+        "Howdy",
+        "Hi, I need some help",
+        "Hello, can you help me?",
+        "Good day",
+        "Morning!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "examples": [
+        "Thanks, bye",
+        "Goodbye",
+        "See you later",
+        "Cheers",
+        "That's all, thanks",
+        "Bye",
+        "Thank you, goodbye",
+        "Okay, thanks",
+        "See ya",
+        "All done, thank you",
+        "Thanks for your help",
+        "That's everything",
+        "Bye bye",
+        "Thanks, that's all I needed",
+        "Great, thanks!"
+      ]
+    },
+    {
+      "tag": "out_of_scope",
+      "examples": [
+        "What's the weather like?",
+        "Tell me a joke",
+        "Who won the football last night?",
+        "What's your favourite food?",
+        "Are you a robot?",
+        "What can you do?",
+        "Help me with something else",
+        "Can you recommend a hotel?",
+        "What's the capital of France?",
+        "Play some music",
+        "What's the stock market doing?",
+        "Can you write me a poem?",
+        "What movies are on tonight?",
+        "How do I cook pasta?",
+        "What time is it?"
+      ]
+    }
+  ]
+}
