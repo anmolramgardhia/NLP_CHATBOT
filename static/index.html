@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NLP Chatbot</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Grand Table — AI Assistant</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
-            <h2>NLP Assistant</h2>
-        </div>
-        <div class="chat-messages" id="chat-messages">
-            <div class="message bot-message">Hello! How can I help you today?</div>
-        </div>
-        <div class="chat-input-area">
-            <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
-            <button id="send-btn">Send</button>
-        </div>
+  <div class="chat-container">
+
+    <div class="chat-header">
+      <div class="avatar">🍽️</div>
+      <div class="chat-header-text">
+        <h2>The Grand Table</h2>
+        <p><span class="status-dot"></span>AI Assistant · Online</p>
+      </div>
     </div>
-    <script src="app.js"></script>
+
+    <div class="chat-messages" id="chat-messages">
+      <div class="message bot-message">
+        Hello! Welcome to The Grand Table 🍽️<br>
+        I can help you book a table, check availability, or answer menu questions. How can I help?
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type a message…"
+        autocomplete="off"
+        autofocus
+      />
+      <button id="send-btn" title="Send">&#10148;</button>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
