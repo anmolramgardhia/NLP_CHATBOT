@@ -25,12 +25,12 @@ from pydantic import BaseModel
 # ── Path fix so `src/` imports work ──────────────────────────────────────────
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from preprocess import clean_text
-from intent_classifier import TFIDFIntentClassifier, load_intent_data
-from ner import NERExtractor
-from sentiment import SentimentDetector
-from dialogue import DialogueStateTracker
-from response import ResponseGenerator
+from src.preprocess import clean_text
+from src.intent_classifier import TFIDFIntentClassifier, load_intent_data
+from src.ner import NERExtractor
+from src.sentiment import SentimentDetector
+from src.dialogue import DialogueStateTracker
+from src.response import ResponseGenerator
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(name)s | %(message)s")
